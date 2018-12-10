@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family: 'Monoton', cursive;
+}
+
 #menu {
   display: none;
   position: absolute;
@@ -23,7 +34,7 @@
 #menu-icon-wrapper svg {
   position: absolute;
   top: -33px;
-  left: -50px;
+  left: -33px;
   -webkit-transform: scale(0.1);
   -ms-transform: scale(0.1);
   transform: scale(0.1);
